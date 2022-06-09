@@ -1,0 +1,6 @@
+1-Linux instance (local/aws/cloud provider)
+2-Installed DB (Mysql/Mariadb)
+3-Create DB and table using bash script
+4-Table should have the same csv structure 
+5-instert csv records into table using bash script and without using
+the existing import csv function into table.
