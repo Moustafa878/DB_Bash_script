@@ -15,7 +15,7 @@ mysql -uroot -p -e " USE employees_info;
 
 
 
-# This for loop to add the rest of column to table
+# This for loop to add the rest of columns into table
 
 for i in $(head -1 employees.csv | sed 's/[,]/ /g')
    do
@@ -32,7 +32,7 @@ for i in $(head -1 employees.csv | sed 's/[,]/ /g')
 
 
  
-# This for loop to insert the data to table
+# This for loop to insert the data into table
 
 for((i=2;i<=`sed -n '$=' employees.csv`;i++))
 do
